@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1255990971.svg)](https://doi.org/10.5281/zenodo.20489133)
+
 # SQChip-EM
 
 **SQChip-EM** is a Qiskit-Metal-based layout-to-electromagnetic simulation dataset for superconducting quantum chips.
