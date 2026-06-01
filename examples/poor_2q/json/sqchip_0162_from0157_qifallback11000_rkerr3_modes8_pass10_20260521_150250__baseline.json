@@ -1,0 +1,864 @@
+{
+  "meta": {
+    "created_utc": "2026-05-21T07:02:54.656308+00:00",
+    "updated_utc": "2026-05-21T07:12:44.856874+00:00",
+    "sample_id": "sqchip_0162_from0157_qifallback11000_rkerr3_modes8_pass10_20260521_150250__baseline",
+    "units": {
+      "f": "GHz",
+      "kappa": "Hz",
+      "C": "fF",
+      "K": "MHz",
+      "T": "us"
+    },
+    "filename_base": "sqchip_0162_from0157_qifallback11000_rkerr3_modes8_pass10_20260521_150250__baseline",
+    "ansys_sim_tag": "02fdb2c6",
+    "layout": {
+      "shared": {
+        "chip_size_x": "12.0mm",
+        "chip_size_y": "12.0mm",
+        "cpw_width": "10.0um",
+        "cpw_gap": "6.0um",
+        "feed_fillet": "25.0um",
+        "ro_fillet": "25.0um",
+        "pad_width": "520um",
+        "pocket_height": "780um",
+        "ro_pad_w": "360um",
+        "ro_pad_h": "360um",
+        "ro_pad_gap": "1.0um",
+        "lp_dx": 2.4,
+        "prime_width": "14.0um",
+        "prime_gap": "6.0um",
+        "second_width": "10.0um",
+        "second_gap": "6.0um",
+        "cap_gap": "1.2um",
+        "cap_width": "18.0um",
+        "finger_length": "160um",
+        "finger_count": "12",
+        "cap_distance": "40.0um",
+        "feed_total_length": "3.0mm",
+        "feed_spacing": "1100.0um",
+        "feed_lead_start": "50.0um",
+        "feed_lead_end": "50.0um",
+        "ro_total_length": "10.2mm",
+        "ro_spacing": "260.0um",
+        "ro_lead_start": "250.0um",
+        "ro_lead_end": "250.0um"
+      },
+      "ro1_dx_mm": 3.2,
+      "ro1_dy_mm": -0.35,
+      "ro2_dx_mm": 3.2,
+      "ro2_dy_mm": 0.35,
+      "tee_offset_mm": 0.8,
+      "ro1_total_length_mm": 16.6,
+      "ro2_total_length_mm": 15.0,
+      "ro1_tee_cap_gap_um": 80.0,
+      "ro2_tee_cap_gap_um": 100.0,
+      "ro1_tee_cap_width_um": 0.28,
+      "ro2_tee_cap_width_um": 0.22,
+      "ro1_tee_cap_distance_um": 170.0,
+      "ro2_tee_cap_distance_um": 170.0,
+      "ro1_tee_finger_length_um": 10,
+      "ro2_tee_finger_length_um": 10,
+      "ro1_tee_finger_count": 1,
+      "ro2_tee_finger_count": 1,
+      "q1_pad_width_um": 425.0,
+      "q2_pad_width_um": 425.0,
+      "q1_pocket_height_um": 650.0,
+      "q2_pocket_height_um": 650.0,
+      "q1_ro_pad_w_um": 420.0,
+      "q2_ro_pad_w_um": 400.0,
+      "q1_ro_pad_h_um": 420.0,
+      "q2_ro_pad_h_um": 400.0,
+      "q1_ro_pad_gap_um": 4.0,
+      "q2_ro_pad_gap_um": 4.0,
+      "q1_bus_pad_w_um": 270.0,
+      "q2_bus_pad_w_um": 270.0,
+      "q1_bus_pad_h_um": 270.0,
+      "q2_bus_pad_h_um": 270.0,
+      "q1_bus_pad_gap_um": 1.2,
+      "q2_bus_pad_gap_um": 1.2,
+      "lp1_dx_mm": 2.4,
+      "lp2_dx_mm": 2.4,
+      "ro1_purcell_stub_length_mm": 15.54,
+      "ro2_purcell_stub_length_mm": 14.45,
+      "ro1_purcell_stub_offset_mm": 2.8,
+      "ro2_purcell_stub_offset_mm": 2.8,
+      "ro1_purcell_stub_width_um": 10.0,
+      "ro2_purcell_stub_width_um": 10.0,
+      "ro1_purcell_stub_gap_um": 6.0,
+      "ro2_purcell_stub_gap_um": 6.0,
+      "swap_tee_ports": true,
+      "bus_width": "10.0um",
+      "bus_gap": "6.0um",
+      "bus_pad_gap_um": null,
+      "bus_lead_start": "250.0um",
+      "bus_lead_end": "250.0um",
+      "bus_fillet": "50um",
+      "bus_spacing": "250.0um",
+      "bus_total_length": "5.00mm"
+    },
+    "tan_delta_main": 1e-06,
+    "junctions": {
+      "Lj1_nH": 10.0,
+      "Cj1_fF": 2.0,
+      "Lj2_nH": 9.0,
+      "Cj2_fF": 2.0
+    },
+    "external_coupling": {
+      "Q1_EFFECTIVE_CIN_FF": 0.0,
+      "Q2_EFFECTIVE_CIN_FF": 0.0,
+      "Q1_TARGET_KEXT_HZ": 0.0,
+      "Q2_TARGET_KEXT_HZ": 0.0
+    },
+    "positions_mm": {
+      "Q1": {
+        "x": 0.0,
+        "y": 1.5
+      },
+      "Q2": {
+        "x": 0.0,
+        "y": -1.5
+      }
+    },
+    "gds_path": "examples/poor_2q/gds/sqchip_0162_from0157_qifallback11000_rkerr3_modes8_pass10_20260521_150250__baseline.gds",
+    "gds_export_mode": "safe",
+    "gds_error": "",
+    "hfss_setup_used": {
+      "n_modes": 8,
+      "max_passes": 10,
+      "min_passes": 10,
+      "min_converged": 2,
+      "min_freq_ghz": 3.5,
+      "max_delta_f": 0.02
+    },
+    "mode_picker": {
+      "n_modes": 8,
+      "q_window_GHz": [
+        3.5,
+        5.5
+      ],
+      "r_window_GHz": [
+        5.0,
+        6.5
+      ],
+      "q_pick": {
+        "window_GHz": [
+          3.5,
+          5.5
+        ],
+        "window_used_GHz": [
+          3.5,
+          5.5
+        ],
+        "expand_GHz": 0.0,
+        "candidates": [
+          1,
+          2
+        ],
+        "strict_windows": true,
+        "max_dist_GHz": 3.5
+      },
+      "r_pick": {
+        "window_GHz": [
+          5.0,
+          6.5
+        ],
+        "window_used_GHz": [
+          5.0,
+          6.5
+        ],
+        "expand_GHz": 0.0,
+        "candidates": [
+          3,
+          4
+        ],
+        "strict_windows": true,
+        "resonator_like_filter": {
+          "self_kerr_max_MHz": 3.0,
+          "max_JJ_participation": 0.12,
+          "pm_cols": [
+            "jj1",
+            "jj2"
+          ],
+          "rejected": []
+        }
+      },
+      "picked_by_pm": true,
+      "pm": {
+        "pm_cols": [
+          "jj1",
+          "jj2"
+        ],
+        "top_pm_by_col": {
+          "jj1": [
+            {
+              "idx": 1,
+              "p": 0.9460227150047078,
+              "f_GHz": 4.8225368677,
+              "self_kerr_MHz": 159.16636688171616
+            },
+            {
+              "idx": 4,
+              "p": 0.021789209174344435,
+              "f_GHz": 5.8514394923,
+              "self_kerr_MHz": 0.12775792781956066
+            },
+            {
+              "idx": 0,
+              "p": 0.006672305020865316,
+              "f_GHz": 3.89228100776,
+              "self_kerr_MHz": 0.0058335110674272205
+            },
+            {
+              "idx": 3,
+              "p": 0.004384309298172226,
+              "f_GHz": 5.63559619851,
+              "self_kerr_MHz": 0.45546795936735235
+            },
+            {
+              "idx": 6,
+              "p": 0.0036552130865901305,
+              "f_GHz": 7.29789511785,
+              "self_kerr_MHz": 0.005691330421742415
+            }
+          ],
+          "jj2": [
+            {
+              "idx": 2,
+              "p": 0.9149275117388519,
+              "f_GHz": 4.99355805926,
+              "self_kerr_MHz": 143.6582947689029
+            },
+            {
+              "idx": 3,
+              "p": 0.045413327603038234,
+              "f_GHz": 5.63559619851,
+              "self_kerr_MHz": 0.45546795936735235
+            },
+            {
+              "idx": 5,
+              "p": 0.009277477498947558,
+              "f_GHz": 6.50943140857,
+              "self_kerr_MHz": 0.025100533033761713
+            },
+            {
+              "idx": 4,
+              "p": 0.0038256517451294944,
+              "f_GHz": 5.8514394923,
+              "self_kerr_MHz": 0.12775792781956066
+            },
+            {
+              "idx": 0,
+              "p": 0.00254592368211302,
+              "f_GHz": 3.89228100776,
+              "self_kerr_MHz": 0.0058335110674272205
+            }
+          ]
+        },
+        "focus_require_in_window_active": false,
+        "pm_q1": {
+          "idx": 1,
+          "p": 0.9460227150047078,
+          "col": "jj1"
+        },
+        "pm_q2": {
+          "idx": 2,
+          "p": 0.9149275117388519,
+          "col": "jj2"
+        },
+        "pm_q1_final": null,
+        "pm_q2_final": null
+      },
+      "kerr_floor_MHz": null,
+      "q_kerr_min_MHz": 0.01,
+      "focus_require_in_window": false,
+      "n_qubit_like": 5,
+      "selected": {
+        "q1": 1,
+        "q2": 2,
+        "r1": 4,
+        "r2": 3
+      },
+      "selected_freqs_GHz": {
+        "q1": 4.8225368677,
+        "q2": 4.99355805926,
+        "r1": 5.8514394923,
+        "r2": 5.63559619851
+      },
+      "valid_pm_min": 0.3,
+      "valid": true,
+      "invalid_reasons": [],
+      "warnings": []
+    },
+    "hfss_convergence_f": {
+      "re(Mode(1)) [g]": {
+        "1": 3.97253921649877,
+        "2": 3.67455619680091,
+        "3": 3.53344837121418,
+        "4": 3.98699552365183,
+        "5": 3.58193411196989,
+        "6": 3.57135784150346,
+        "7": 3.60350190276852,
+        "8": 3.77716554108673,
+        "9": 3.8651774519329,
+        "10": 3.89228100776172
+      },
+      "re(Mode(2)) [g]": {
+        "1": 3.97488383767863,
+        "2": 4.31874797381796,
+        "3": 3.7391593058617,
+        "4": 4.32473248646879,
+        "5": 4.1569946970446,
+        "6": 3.68927457353864,
+        "7": 4.25023343782125,
+        "8": 4.47869084677724,
+        "9": 4.62053645941737,
+        "10": 4.82253686769977
+      },
+      "re(Mode(3)) [g]": {
+        "1": 4.71519088267452,
+        "2": 4.69766610487285,
+        "3": 4.06891694212072,
+        "4": 5.01426118340489,
+        "5": 4.68222528996403,
+        "6": 4.28114908829786,
+        "7": 4.30254375928174,
+        "8": 4.57456878762889,
+        "9": 4.84301937571448,
+        "10": 4.9935580592603
+      },
+      "re(Mode(4)) [g]": {
+        "1": 4.72739847950323,
+        "2": 4.87178896364307,
+        "3": 4.79001316963597,
+        "4": 5.33251833992726,
+        "5": 4.85016407357481,
+        "6": 4.83641370840221,
+        "7": 5.00396783181456,
+        "8": 5.34305625736071,
+        "9": 5.53235687427256,
+        "10": 5.63559619850753
+      },
+      "re(Mode(5)) [g]": {
+        "1": 4.86341948234769,
+        "2": 4.92738934345276,
+        "3": 5.26171113097394,
+        "4": 6.03472566693617,
+        "5": 6.04901756033036,
+        "6": 5.3710742105389,
+        "7": 5.35775002205253,
+        "8": 5.59947918199108,
+        "9": 5.74690564172261,
+        "10": 5.85143949229642
+      },
+      "re(Mode(6)) [g]": {
+        "1": 6.00262200701912,
+        "2": 5.72467824257335,
+        "3": 5.46482200089106,
+        "4": 6.36677351255052,
+        "5": 6.39407655443664,
+        "6": 5.44188386724469,
+        "7": 5.87025486779685,
+        "8": 6.16308423645525,
+        "9": 6.36372101500059,
+        "10": 6.50943140856723
+      },
+      "re(Mode(7)) [g]": {
+        "1": 6.34153491056559,
+        "2": 6.24234949610773,
+        "3": 5.77681344992781,
+        "4": 6.5804956421515,
+        "5": 6.9009415645679,
+        "6": 6.87428236784175,
+        "7": 6.24176335110082,
+        "8": 6.7550569723585,
+        "9": 7.12592222386826,
+        "10": 7.29789511785273
+      },
+      "re(Mode(8)) [g]": {
+        "1": 6.50322371294206,
+        "2": 6.84875085992989,
+        "3": 6.84246060624655,
+        "4": 7.86804790680568,
+        "5": 7.55569029058155,
+        "6": 7.40639141436117,
+        "7": 7.59732141560754,
+        "8": 7.92415760336271,
+        "9": 8.16427124627563,
+        "10": 8.30233133111854
+      }
+    },
+    "hfss_last_pass_delta_GHz": {
+      "Q1": {
+        "mode_index": 1,
+        "last_pass_delta_GHz": 0.20200040828239985,
+        "threshold_GHz": 0.02
+      },
+      "Q2": {
+        "mode_index": 2,
+        "last_pass_delta_GHz": 0.15053868354582,
+        "threshold_GHz": 0.02
+      },
+      "R1": {
+        "mode_index": 4,
+        "last_pass_delta_GHz": 0.1045338505738096,
+        "threshold_GHz": 0.02
+      },
+      "R2": {
+        "mode_index": 3,
+        "last_pass_delta_GHz": 0.10323932423496984,
+        "threshold_GHz": 0.02
+      }
+    },
+    "json_filename": "sqchip_0162_from0157_qifallback11000_rkerr3_modes8_pass10_20260521_150250__baseline.json"
+  },
+  "resonators": {
+    "readout1": {
+      "f_GHz": 5.8514394923,
+      "K_MHz": 0.12775792781956066,
+      "modes_f_GHz": [
+        3.89228100776,
+        4.8225368677,
+        4.99355805926,
+        5.63559619851,
+        5.8514394923,
+        6.50943140857,
+        7.29789511785,
+        8.30233133112
+      ],
+      "picked_qubit_mode_index": 1,
+      "picked_res_mode_index": 4,
+      "Qi": 11000.0,
+      "kappa_i_over_2pi_Hz": 531949.0447545454,
+      "external": {
+        "Cin_fF": 231.86931,
+        "pair": "cap_body_0_RO_TEE1 <-> cap_body_1_RO_TEE1",
+        "res_node": "cap_body_0_RO_TEE1",
+        "feed_node": "cap_body_1_RO_TEE1",
+        "kappa_Hz": 17143315.839564912,
+        "kappa_over_2pi_Hz": 2728443.4568523415,
+        "Qe": 341.32483745037894,
+        "method": "q3d_chain_refine",
+        "source_run": "Q3D2Q_02fdb2c6_a1_cin1",
+        "full_chip_missing_nodes": [
+          "cap_body_1_RO_TEE1"
+        ]
+      },
+      "kappa_over_2pi_Hz": 3260392.501606887,
+      "Q_loaded": 1794.7040086174022,
+      "warnings": [
+        "Cin refined via chain-only Q3D run=Q3D2Q_02fdb2c6_a1_cin1 missing_full_chip_nodes=['cap_body_1_RO_TEE1']"
+      ],
+      "T1_photon_us": 0.04881465744184349,
+      "kappa_i_over_kappa_e": 0.19496429124033468,
+      "purcell_filter": {
+        "model": "single_shunt_quarter_wave_notch_approx",
+        "stub_length_mm": 15.54,
+        "stub_offset_mm": 2.8,
+        "stub_width_um": 10.0,
+        "stub_gap_um": 6.0,
+        "notch_frequency_GHz": 4.826254826254827,
+        "bandwidth_GHz": 0.38610038610038616,
+        "kappa_over_2pi_at_readout_Hz": 3260392.501606887,
+        "kappa_eff_over_2pi_at_qubit_Hz": 345.1780580292524,
+        "suppression_at_qubit": 0.0001058700932047694
+      },
+      "kappa_internal_over_2pi_Hz": 531949.0447545454,
+      "kappa_external_over_2pi_Hz": 2728443.4568523415,
+      "kappa_total_over_2pi_Hz": 3260392.501606887
+    },
+    "readout2": {
+      "f_GHz": 5.63559619851,
+      "K_MHz": 0.45546795936735235,
+      "modes_f_GHz": [
+        3.89228100776,
+        4.8225368677,
+        4.99355805926,
+        5.63559619851,
+        5.8514394923,
+        6.50943140857,
+        7.29789511785,
+        8.30233133112
+      ],
+      "picked_qubit_mode_index": 2,
+      "picked_res_mode_index": 3,
+      "Qi": 11000.0,
+      "kappa_i_over_2pi_Hz": 512326.9271372727,
+      "external": {
+        "Cin_fF": 216.82317,
+        "pair": "cap_body_0_RO_TEE2 <-> cap_body_1_RO_TEE2",
+        "res_node": "cap_body_0_RO_TEE2",
+        "feed_node": "cap_body_1_RO_TEE2",
+        "kappa_Hz": 13392174.92628366,
+        "kappa_over_2pi_Hz": 2131430.8382693836,
+        "Qe": 420.81261852766755,
+        "method": "q3d_chain_refine",
+        "source_run": "Q3D2Q_02fdb2c6_a1_cin2",
+        "full_chip_missing_nodes": [
+          "cap_body_1_RO_TEE2"
+        ]
+      },
+      "kappa_over_2pi_Hz": 2643757.7654066565,
+      "Q_loaded": 2131.6613315528725,
+      "warnings": [
+        "Cin refined via chain-only Q3D run=Q3D2Q_02fdb2c6_a1_cin2 missing_full_chip_nodes=['cap_body_1_RO_TEE2']"
+      ],
+      "T1_photon_us": 0.06020027446327501,
+      "kappa_i_over_kappa_e": 0.24036760561898263,
+      "purcell_filter": {
+        "model": "single_shunt_quarter_wave_notch_approx",
+        "stub_length_mm": 14.45,
+        "stub_offset_mm": 2.8,
+        "stub_width_um": 10.0,
+        "stub_gap_um": 6.0,
+        "notch_frequency_GHz": 5.190311418685122,
+        "bandwidth_GHz": 0.4152249134948097,
+        "kappa_over_2pi_at_readout_Hz": 2643757.7654066565,
+        "kappa_eff_over_2pi_at_qubit_Hz": 906284.6848827476,
+        "suppression_at_qubit": 0.3428017107850821
+      },
+      "kappa_internal_over_2pi_Hz": 512326.9271372727,
+      "kappa_external_over_2pi_Hz": 2131430.8382693836,
+      "kappa_total_over_2pi_Hz": 2643757.7654066565
+    }
+  },
+  "qubits": {
+    "Q1": {
+      "Lj_H": 1e-08,
+      "Cj_fF": 2.0,
+      "C_eff_fF": 64.81942657014005,
+      "f01_epr_GHz": 4.8225368677,
+      "alpha_epr_MHz": -159.16636688171616,
+      "chi_MHz": 8.899825256093086,
+      "dispersive": {
+        "chi_GHz": 0.008899825256093086,
+        "Delta_GHz": -1.0289026245999997,
+        "g_GHz": 0.26144061482946607
+      },
+      "energies": {
+        "Ec_GHz": 0.29883370386960934,
+        "Ej_GHz": 16.346151280678114,
+        "Ej_over_Ec": 54.69982491603578
+      },
+      "f01_transmon_GHz": 5.952425965168623,
+      "Q_dielectric_main": null,
+      "T1_dielectric_us": null,
+      "T1_purcell_us": 7141.334704046217,
+      "T1_est_us": 7141.334704046217,
+      "T2_est_us": 14282.669408092434
+    },
+    "Q2": {
+      "Lj_H": 9.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": 64.93041702241106,
+      "f01_epr_GHz": 4.99355805926,
+      "alpha_epr_MHz": -143.6582947689029,
+      "chi_MHz": 16.095702695020158,
+      "dispersive": {
+        "chi_GHz": 0.01609570269502016,
+        "Delta_GHz": -0.6420381392500003,
+        "g_GHz": 0.23773735250192535
+      },
+      "energies": {
+        "Ec_GHz": 0.29832288491191095,
+        "Ej_GHz": 18.16239031186457,
+        "Ej_over_Ec": 60.88165283473837
+      },
+      "f01_transmon_GHz": 6.2854490884976055,
+      "Q_dielectric_main": null,
+      "T1_dielectric_us": null,
+      "T1_purcell_us": 1.2808028976963406,
+      "T1_est_us": 1.2808028976963406,
+      "T2_est_us": 2.561605795392681
+    }
+  },
+  "q3d": {
+    "internal": {
+      "capacitances_fF": {
+        "units": "fF",
+        "nodes": [
+          "bus_connector_pad_Q1",
+          "cap_body_0_RO_FILTER_TEE1",
+          "cap_body_0_RO_FILTER_TEE2",
+          "cap_body_0_RO_TEE1",
+          "cap_body_0_RO_TEE2",
+          "pad_bot_Q1",
+          "pad_bot_Q2",
+          "pad_top_Q1",
+          "pad_top_Q2"
+        ],
+        "capacitance_matrix_fF": {
+          "bus_connector_pad_Q1": {
+            "bus_connector_pad_Q1": 1013.31949,
+            "cap_body_0_RO_FILTER_TEE1": -0.00182,
+            "cap_body_0_RO_FILTER_TEE2": -0.00137,
+            "cap_body_0_RO_TEE1": -0.0026,
+            "cap_body_0_RO_TEE2": -0.00284,
+            "pad_bot_Q1": -38.11946,
+            "pad_bot_Q2": -4.19538,
+            "pad_top_Q1": -4.14919,
+            "pad_top_Q2": -36.65992
+          },
+          "cap_body_0_RO_FILTER_TEE1": {
+            "bus_connector_pad_Q1": -0.00182,
+            "cap_body_0_RO_FILTER_TEE1": 12.41079,
+            "cap_body_0_RO_FILTER_TEE2": -0.08395,
+            "cap_body_0_RO_TEE1": -2.87991,
+            "cap_body_0_RO_TEE2": -0.06015,
+            "pad_bot_Q1": -0.00066,
+            "pad_bot_Q2": -0.00023,
+            "pad_top_Q1": -0.00054,
+            "pad_top_Q2": -0.00032
+          },
+          "cap_body_0_RO_FILTER_TEE2": {
+            "bus_connector_pad_Q1": -0.00137,
+            "cap_body_0_RO_FILTER_TEE1": -0.08395,
+            "cap_body_0_RO_FILTER_TEE2": 12.40202,
+            "cap_body_0_RO_TEE1": -0.06049,
+            "cap_body_0_RO_TEE2": -2.87736,
+            "pad_bot_Q1": -0.00049,
+            "pad_bot_Q2": -0.00052,
+            "pad_top_Q1": -0.00042,
+            "pad_top_Q2": -0.00058
+          },
+          "cap_body_0_RO_TEE1": {
+            "bus_connector_pad_Q1": -0.0026,
+            "cap_body_0_RO_FILTER_TEE1": -2.87991,
+            "cap_body_0_RO_FILTER_TEE2": -0.06049,
+            "cap_body_0_RO_TEE1": 226.69813,
+            "cap_body_0_RO_TEE2": -0.05344,
+            "pad_bot_Q1": -0.00081,
+            "pad_bot_Q2": -0.00044,
+            "pad_top_Q1": -0.00069,
+            "pad_top_Q2": -0.00055
+          },
+          "cap_body_0_RO_TEE2": {
+            "bus_connector_pad_Q1": -0.00284,
+            "cap_body_0_RO_FILTER_TEE1": -0.06015,
+            "cap_body_0_RO_FILTER_TEE2": -2.87736,
+            "cap_body_0_RO_TEE1": -0.05344,
+            "cap_body_0_RO_TEE2": 224.50256,
+            "pad_bot_Q1": -0.00079,
+            "pad_bot_Q2": -0.00092,
+            "pad_top_Q1": -0.00063,
+            "pad_top_Q2": -0.00109
+          },
+          "pad_bot_Q1": {
+            "bus_connector_pad_Q1": -38.11946,
+            "cap_body_0_RO_FILTER_TEE1": -0.00066,
+            "cap_body_0_RO_FILTER_TEE2": -0.00049,
+            "cap_body_0_RO_TEE1": -0.00081,
+            "cap_body_0_RO_TEE2": -0.00079,
+            "pad_bot_Q1": 99.42557,
+            "pad_bot_Q2": -0.00119,
+            "pad_top_Q1": -26.00337,
+            "pad_top_Q2": -0.00153
+          },
+          "pad_bot_Q2": {
+            "bus_connector_pad_Q1": -4.19538,
+            "cap_body_0_RO_FILTER_TEE1": -0.00023,
+            "cap_body_0_RO_FILTER_TEE2": -0.00052,
+            "cap_body_0_RO_TEE1": -0.00044,
+            "cap_body_0_RO_TEE2": -0.00092,
+            "pad_bot_Q1": -0.00119,
+            "pad_bot_Q2": 102.12638,
+            "pad_top_Q1": -0.00089,
+            "pad_top_Q2": -26.01631
+          },
+          "pad_top_Q1": {
+            "bus_connector_pad_Q1": -4.14919,
+            "cap_body_0_RO_FILTER_TEE1": -0.00054,
+            "cap_body_0_RO_FILTER_TEE2": -0.00042,
+            "cap_body_0_RO_TEE1": -0.00069,
+            "cap_body_0_RO_TEE2": -0.00063,
+            "pad_bot_Q1": -26.00337,
+            "pad_bot_Q2": -0.00089,
+            "pad_top_Q1": 99.8466,
+            "pad_top_Q2": -0.00116
+          },
+          "pad_top_Q2": {
+            "bus_connector_pad_Q1": -36.65992,
+            "cap_body_0_RO_FILTER_TEE1": -0.00032,
+            "cap_body_0_RO_FILTER_TEE2": -0.00058,
+            "cap_body_0_RO_TEE1": -0.00055,
+            "cap_body_0_RO_TEE2": -0.00109,
+            "pad_bot_Q1": -0.00153,
+            "pad_bot_Q2": -26.01631,
+            "pad_top_Q1": -0.00116,
+            "pad_top_Q2": 97.69551
+          }
+        }
+      }
+    },
+    "external": {
+      "units": "fF",
+      "readout1": {
+        "Cin_fF": 231.86931,
+        "res_node": "cap_body_0_RO_TEE1",
+        "feed_node": "cap_body_1_RO_TEE1",
+        "pair": "cap_body_0_RO_TEE1 <-> cap_body_1_RO_TEE1",
+        "method": "q3d_chain_refine",
+        "source_run": "Q3D2Q_02fdb2c6_a1_cin1",
+        "full_chip_missing_nodes": [
+          "cap_body_1_RO_TEE1"
+        ]
+      },
+      "readout2": {
+        "Cin_fF": 216.82317,
+        "res_node": "cap_body_0_RO_TEE2",
+        "feed_node": "cap_body_1_RO_TEE2",
+        "pair": "cap_body_0_RO_TEE2 <-> cap_body_1_RO_TEE2",
+        "method": "q3d_chain_refine",
+        "source_run": "Q3D2Q_02fdb2c6_a1_cin2",
+        "full_chip_missing_nodes": [
+          "cap_body_1_RO_TEE2"
+        ]
+      }
+    },
+    "runs": [
+      {
+        "name": "Q3D2Q_02fdb2c6_a1",
+        "purpose": "full_chip",
+        "components": [
+          "Q1",
+          "Q2",
+          "LP_RO1",
+          "RO_TEE1",
+          "RO_FILTER_TEE1",
+          "RO_PSTUB_GND1",
+          "RO_PSTUB1",
+          "RO_FILTER_LINK1",
+          "RO_FEED1",
+          "RO_RES1",
+          "LP_RO2",
+          "RO_TEE2",
+          "RO_FILTER_TEE2",
+          "RO_PSTUB_GND2",
+          "RO_PSTUB2",
+          "RO_FILTER_LINK2",
+          "RO_FEED2",
+          "RO_RES2",
+          "Bus_12"
+        ]
+      },
+      {
+        "name": "Q3D2Q_02fdb2c6_a1_cin1",
+        "purpose": "cin_refine_readout1",
+        "components": [
+          "RO_TEE1",
+          "RO_RES1",
+          "RO_FEED1",
+          "LP_RO1",
+          "RO_FILTER_TEE1",
+          "RO_FILTER_LINK1",
+          "RO_PSTUB1",
+          "RO_PSTUB_GND1"
+        ]
+      },
+      {
+        "name": "Q3D2Q_02fdb2c6_a1_cin2",
+        "purpose": "cin_refine_readout2",
+        "components": [
+          "RO_TEE2",
+          "RO_RES2",
+          "RO_FEED2",
+          "LP_RO2",
+          "RO_FILTER_TEE2",
+          "RO_FILTER_LINK2",
+          "RO_PSTUB2",
+          "RO_PSTUB_GND2"
+        ]
+      }
+    ],
+    "refinements": {
+      "readout1": {
+        "source_run": "Q3D2Q_02fdb2c6_a1_cin1",
+        "full_chip_missing_nodes": [
+          "cap_body_1_RO_TEE1"
+        ],
+        "components": [
+          "RO_TEE1",
+          "RO_RES1",
+          "RO_FEED1",
+          "LP_RO1",
+          "RO_FILTER_TEE1",
+          "RO_FILTER_LINK1",
+          "RO_PSTUB1",
+          "RO_PSTUB_GND1"
+        ],
+        "units": "fF",
+        "nodes": [
+          "cap_body_0_RO_FILTER_TEE1",
+          "cap_body_0_RO_TEE1",
+          "cap_body_1_RO_TEE1"
+        ],
+        "capacitance_matrix_fF": {
+          "cap_body_0_RO_FILTER_TEE1": {
+            "cap_body_0_RO_FILTER_TEE1": 12.39452,
+            "cap_body_0_RO_TEE1": -2.84325,
+            "cap_body_1_RO_TEE1": -8.11575
+          },
+          "cap_body_0_RO_TEE1": {
+            "cap_body_0_RO_FILTER_TEE1": -2.84325,
+            "cap_body_0_RO_TEE1": 236.67246,
+            "cap_body_1_RO_TEE1": -231.86931
+          },
+          "cap_body_1_RO_TEE1": {
+            "cap_body_0_RO_FILTER_TEE1": -8.11575,
+            "cap_body_0_RO_TEE1": -231.86931,
+            "cap_body_1_RO_TEE1": 785.86674
+          }
+        }
+      },
+      "readout2": {
+        "source_run": "Q3D2Q_02fdb2c6_a1_cin2",
+        "full_chip_missing_nodes": [
+          "cap_body_1_RO_TEE2"
+        ],
+        "components": [
+          "RO_TEE2",
+          "RO_RES2",
+          "RO_FEED2",
+          "LP_RO2",
+          "RO_FILTER_TEE2",
+          "RO_FILTER_LINK2",
+          "RO_PSTUB2",
+          "RO_PSTUB_GND2"
+        ],
+        "units": "fF",
+        "nodes": [
+          "cap_body_0_RO_FILTER_TEE2",
+          "cap_body_0_RO_TEE2",
+          "cap_body_1_RO_TEE2"
+        ],
+        "capacitance_matrix_fF": {
+          "cap_body_0_RO_FILTER_TEE2": {
+            "cap_body_0_RO_FILTER_TEE2": 12.38518,
+            "cap_body_0_RO_TEE2": -2.79298,
+            "cap_body_1_RO_TEE2": -8.15661
+          },
+          "cap_body_0_RO_TEE2": {
+            "cap_body_0_RO_FILTER_TEE2": -2.79298,
+            "cap_body_0_RO_TEE2": 221.39984,
+            "cap_body_1_RO_TEE2": -216.82317
+          },
+          "cap_body_1_RO_TEE2": {
+            "cap_body_0_RO_FILTER_TEE2": -8.15661,
+            "cap_body_0_RO_TEE2": -216.82317,
+            "cap_body_1_RO_TEE2": 771.24205
+          }
+        }
+      }
+    }
+  },
+  "chip": {
+    "T1_qubit1_est_us": 7141.334704046217,
+    "T2_qubit1_est_us": 14282.669408092434,
+    "T1_qubit2_est_us": 1.2808028976963406,
+    "T2_qubit2_est_us": 2.561605795392681,
+    "chi12_MHz": 0.8916787170580919,
+    "chi1_over_kappa1": 2.7296790959084833,
+    "chi2_over_kappa2": 6.088191174558822
+  },
+  "status": "completed"
+}

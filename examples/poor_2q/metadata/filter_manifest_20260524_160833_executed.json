@@ -1,0 +1,870 @@
+{
+  "created_utc": "2026-05-24T08:08:33.396117+00:00",
+  "mode": "execute",
+  "criteria": {
+    "fq_fr": "both qubits: 3 < fq_GHz < fr_GHz < 8",
+    "kappa": "both resonators: kext_MHz > kint_MHz, kext_MHz > 2, and ktotal_MHz > 2",
+    "chi_over_k": "both qubits: chi_over_k > 0.1",
+    "T1": "both qubits: T1_est_us > 50",
+    "hfss_delta": "not used for this file organization pass",
+    "hfss_setup": "not used for this file organization pass"
+  },
+  "roots": {
+    "json_dir": "data/sqchip_em_2q/json",
+    "json_tmp_dir": "data/sqchip_em_2q/json_tmp",
+    "gds_dir": "data/sqchip_em_2q/gds",
+    "gds_tmp_dir": "data/sqchip_em_2q/gds_tmp"
+  },
+  "counts": {
+    "json_seen": 21,
+    "json_keep": 21,
+    "json_move": 0,
+    "gds_seen": 21,
+    "gds_keep": 21,
+    "gds_move": 9,
+    "kept_gds_missing": 0
+  },
+  "kept_json": [
+    "sqchip_0280_return0254_qwin3p0_rwin8p0_modes8_pass10_q3d_ro1l16p9_ro2stub13p99_20260523_032138__baseline.json",
+    "sqchip_0290_from0271_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_073046__baseline.json",
+    "sqchip_0291_rerun0290_stability_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_075725__baseline.json",
+    "sqchip_0302_rel_rodx3p25_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_171004__baseline.json",
+    "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_001416__baseline.json",
+    "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_002908__baseline.json",
+    "sqchip_0328_rel_rodx3p15_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_010514__baseline.json",
+    "sqchip_0332_qysep2p975_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_053440__baseline.json",
+    "sqchip_0334_qxsep0p025_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_061407__baseline.json",
+    "sqchip_0335_qxsep0p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_063731__baseline.json",
+    "sqchip_0336_qxsep0p0125_rev_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_065921__baseline.json",
+    "sqchip_0338_qxsep0p0125_qysep3p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_072351__baseline.json",
+    "sqchip_0340_qxsep0p0125_qysep3p00625_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_080938__baseline.json",
+    "sqchip_0343_qxsep0p0125_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_092228__baseline.json",
+    "sqchip_0346_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_094814__baseline.json",
+    "sqchip_0348_qxsep0p0125_ro1stub14p28_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_101334__baseline.json",
+    "sqchip_0351_qxsep0p0125_ro1teegap70_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_104300__baseline.json",
+    "sqchip_0360_0320_rodx3p15_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_123901__baseline.json",
+    "sqchip_0363_0320_qxsep0p01875_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_132308__baseline.json",
+    "sqchip_0366_0320_qxsep0p015625_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_140847__baseline.json",
+    "sqchip_0367_0320_qxsep0p0125_qysep2p99375_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_143617__baseline.json"
+  ],
+  "kept_gds": [
+    "sqchip_0280_return0254_qwin3p0_rwin8p0_modes8_pass10_q3d_ro1l16p9_ro2stub13p99_20260523_032138__baseline.gds",
+    "sqchip_0290_from0271_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_073046__baseline.gds",
+    "sqchip_0291_rerun0290_stability_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_075725__baseline.gds",
+    "sqchip_0302_rel_rodx3p25_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_171004__baseline.gds",
+    "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_001416__baseline.gds",
+    "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_002908__baseline.gds",
+    "sqchip_0328_rel_rodx3p15_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_010514__baseline.gds",
+    "sqchip_0332_qysep2p975_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_053440__baseline.gds",
+    "sqchip_0334_qxsep0p025_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_061407__baseline.gds",
+    "sqchip_0335_qxsep0p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_063731__baseline.gds",
+    "sqchip_0336_qxsep0p0125_rev_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_065921__baseline.gds",
+    "sqchip_0338_qxsep0p0125_qysep3p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_072351__baseline.gds",
+    "sqchip_0340_qxsep0p0125_qysep3p00625_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_080938__baseline.gds",
+    "sqchip_0343_qxsep0p0125_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_092228__baseline.gds",
+    "sqchip_0346_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_094814__baseline.gds",
+    "sqchip_0348_qxsep0p0125_ro1stub14p28_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_101334__baseline.gds",
+    "sqchip_0351_qxsep0p0125_ro1teegap70_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_104300__baseline.gds",
+    "sqchip_0360_0320_rodx3p15_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_123901__baseline.gds",
+    "sqchip_0363_0320_qxsep0p01875_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_132308__baseline.gds",
+    "sqchip_0366_0320_qxsep0p015625_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_140847__baseline.gds",
+    "sqchip_0367_0320_qxsep0p0125_qysep2p99375_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_143617__baseline.gds"
+  ],
+  "missing_kept_gds": [],
+  "results": [
+    {
+      "json": "sqchip_0280_return0254_qwin3p0_rwin8p0_modes8_pass10_q3d_ro1l16p9_ro2stub13p99_20260523_032138__baseline.json",
+      "sample": "sqchip_0280_return0254_qwin3p0_rwin8p0_modes8_pass10_q3d_ro1l16p9_ro2stub13p99_20260523_032138__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0280_return0254_qwin3p0_rwin8p0_modes8_pass10_q3d_ro1l16p9_ro2stub13p99_20260523_032138__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.0412245283,
+        "fq_GHz": 5.16133672094,
+        "chi_MHz": 1.2019798396248063,
+        "kint_MHz": 0.0017603061320750001,
+        "kext_MHz": 8.92435841711277,
+        "ktotal_MHz": 8.926118723244846,
+        "T1_est_us": 140.33561221141116,
+        "chi_over_k": 0.13465873319550242
+      },
+      "Q2": {
+        "fr_GHz": 6.42198632866,
+        "fq_GHz": 5.36135020198,
+        "chi_MHz": 4.297472150610347,
+        "kint_MHz": 0.0016054965821650001,
+        "kext_MHz": 6.905581546546097,
+        "ktotal_MHz": 6.907187043128262,
+        "T1_est_us": 554051.0226026028,
+        "chi_over_k": 0.6221739940987647
+      },
+      "hfss_max_last_pass_delta_GHz": 0.18057013940531963,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0280_return0254_qwin3p0_rwin8p0_modes8_pass10_q3d_ro1l16p9_ro2stub13p99",
+      "record_id": "2Q-RUN-0261"
+    },
+    {
+      "json": "sqchip_0290_from0271_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_073046__baseline.json",
+      "sample": "sqchip_0290_from0271_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_073046__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0290_from0271_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_073046__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.06978411515,
+        "fq_GHz": 5.25521150111,
+        "chi_MHz": 1.128757615774502,
+        "kint_MHz": 0.0017674460287875,
+        "kext_MHz": 9.41422432884294,
+        "ktotal_MHz": 9.415991774871728,
+        "T1_est_us": 567.7265310919829,
+        "chi_over_k": 0.11987665694301002
+      },
+      "Q2": {
+        "fr_GHz": 6.43706023408,
+        "fq_GHz": 5.40321510095,
+        "chi_MHz": 4.351713047402427,
+        "kint_MHz": 0.00160926505852,
+        "kext_MHz": 6.954326292923985,
+        "ktotal_MHz": 6.955935557982506,
+        "T1_est_us": 391.71769944678056,
+        "chi_over_k": 0.6256114668009654
+      },
+      "hfss_max_last_pass_delta_GHz": 0.19936560093681965,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0290_from0271_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0272"
+    },
+    {
+      "json": "sqchip_0291_rerun0290_stability_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_075725__baseline.json",
+      "sample": "sqchip_0291_rerun0290_stability_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_075725__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0291_rerun0290_stability_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_075725__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.06978411515,
+        "fq_GHz": 5.25521150111,
+        "chi_MHz": 1.128757615774502,
+        "kint_MHz": 0.0017674460287875,
+        "kext_MHz": 9.033207683354075,
+        "ktotal_MHz": 9.034975129382861,
+        "T1_est_us": 591.6682968781687,
+        "chi_over_k": 0.12493201139022973
+      },
+      "Q2": {
+        "fr_GHz": 6.43706023408,
+        "fq_GHz": 5.40321510095,
+        "chi_MHz": 4.3517130474024235,
+        "kint_MHz": 0.00160926505852,
+        "kext_MHz": 6.95443944207313,
+        "ktotal_MHz": 6.95604870713165,
+        "T1_est_us": 391.7113276506267,
+        "chi_over_k": 0.6256012904194955
+      },
+      "hfss_max_last_pass_delta_GHz": 0.19936560093681965,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0291_rerun0290_stability_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0273"
+    },
+    {
+      "json": "sqchip_0302_rel_rodx3p25_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_171004__baseline.json",
+      "sample": "sqchip_0302_rel_rodx3p25_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_171004__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0302_rel_rodx3p25_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d_20260523_171004__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.08625597622,
+        "fq_GHz": 5.26262267507,
+        "chi_MHz": 1.1591571740262527,
+        "kint_MHz": 0.0017715639940549999,
+        "kext_MHz": 8.990781073837937,
+        "ktotal_MHz": 8.992552637831992,
+        "T1_est_us": 411.76784236448344,
+        "chi_over_k": 0.1289019059115247
+      },
+      "Q2": {
+        "fr_GHz": 6.43844405372,
+        "fq_GHz": 5.36618113823,
+        "chi_MHz": 4.767283167071383,
+        "kint_MHz": 0.0016096110134299997,
+        "kext_MHz": 7.039934933358279,
+        "ktotal_MHz": 7.0415445443717095,
+        "T1_est_us": 489.77030963268487,
+        "chi_over_k": 0.6770223687474735
+      },
+      "hfss_max_last_pass_delta_GHz": 0.15696755769367066,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0302_rel_rodx3p25_q2notch5p39_cj2zero_bw012_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0280"
+    },
+    {
+      "json": "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_001416__baseline.json",
+      "sample": "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_001416__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_001416__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.08123458862,
+        "fq_GHz": 5.21066175204,
+        "chi_MHz": 1.0111311620678016,
+        "kint_MHz": 0.0017703086471550001,
+        "kext_MHz": 9.460041291905506,
+        "ktotal_MHz": 9.461811600552661,
+        "T1_est_us": 40304.04881905553,
+        "chi_over_k": 0.10686443619409434
+      },
+      "Q2": {
+        "fr_GHz": 6.41007332468,
+        "fq_GHz": 4.96324474918,
+        "chi_MHz": 2.8514530592636262,
+        "kint_MHz": 0.00160251833117,
+        "kext_MHz": 6.8672225230474435,
+        "ktotal_MHz": 6.868825041378614,
+        "T1_est_us": 80.67660644927352,
+        "chi_over_k": 0.41512966804164264
+      },
+      "hfss_max_last_pass_delta_GHz": 0.17094905802164018,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0302"
+    },
+    {
+      "json": "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_002908__baseline.json",
+      "sample": "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_002908__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_002908__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.04236378455,
+        "fq_GHz": 5.25153010257,
+        "chi_MHz": 1.0882989408894954,
+        "kint_MHz": 0.0017605909461375,
+        "kext_MHz": 8.928663405442796,
+        "ktotal_MHz": 8.930423996388935,
+        "T1_est_us": 738.2138346057828,
+        "chi_over_k": 0.12186419607059587
+      },
+      "Q2": {
+        "fr_GHz": 6.4013126406,
+        "fq_GHz": 5.05527419252,
+        "chi_MHz": 3.298609661358923,
+        "kint_MHz": 0.0016003281601499999,
+        "kext_MHz": 6.839104569498248,
+        "ktotal_MHz": 6.840704897658398,
+        "T1_est_us": 729.3924294501903,
+        "chi_over_k": 0.482203180916056
+      },
+      "hfss_max_last_pass_delta_GHz": 0.17665241297547052,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0326_center_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0303"
+    },
+    {
+      "json": "sqchip_0328_rel_rodx3p15_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_010514__baseline.json",
+      "sample": "sqchip_0328_rel_rodx3p15_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_010514__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0328_rel_rodx3p15_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_010514__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.00299499954,
+        "fq_GHz": 5.16455315434,
+        "chi_MHz": 0.9557342633352902,
+        "kint_MHz": 0.0017507487498850001,
+        "kext_MHz": 9.116997546260324,
+        "ktotal_MHz": 9.118748295010208,
+        "T1_est_us": 393.64903083714864,
+        "chi_over_k": 0.10480980858505211
+      },
+      "Q2": {
+        "fr_GHz": 6.3895287143,
+        "fq_GHz": 5.09926105229,
+        "chi_MHz": 3.1257505591426313,
+        "kint_MHz": 0.0015973821785750001,
+        "kext_MHz": 6.759823418376067,
+        "ktotal_MHz": 6.7614208005546415,
+        "T1_est_us": 83.94518513903535,
+        "chi_over_k": 0.46229197255201526
+      },
+      "hfss_max_last_pass_delta_GHz": 0.2386709133806404,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0328_rel_rodx3p15_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0305"
+    },
+    {
+      "json": "sqchip_0332_qysep2p975_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_053440__baseline.json",
+      "sample": "sqchip_0332_qysep2p975_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_053440__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0332_qysep2p975_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_053440__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.05745016616,
+        "fq_GHz": 5.12307896565,
+        "chi_MHz": 1.2040927356970912,
+        "kint_MHz": 0.00176436254154,
+        "kext_MHz": 9.123756510102128,
+        "ktotal_MHz": 9.125520872643667,
+        "T1_est_us": 96.26102766098182,
+        "chi_over_k": 0.1319478364579385
+      },
+      "Q2": {
+        "fr_GHz": 6.40993401723,
+        "fq_GHz": 5.0556183087,
+        "chi_MHz": 3.19986977835784,
+        "kint_MHz": 0.0016024835043075003,
+        "kext_MHz": 6.884189557119285,
+        "ktotal_MHz": 6.885792040623592,
+        "T1_est_us": 707.4319669415806,
+        "chi_over_k": 0.46470613104197855
+      },
+      "hfss_max_last_pass_delta_GHz": 0.21745044917621037,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0332_qysep2p975_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0308"
+    },
+    {
+      "json": "sqchip_0334_qxsep0p025_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_061407__baseline.json",
+      "sample": "sqchip_0334_qxsep0p025_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_061407__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0334_qxsep0p025_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_061407__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.03929672236,
+        "fq_GHz": 5.16208683387,
+        "chi_MHz": 0.9647327470296614,
+        "kint_MHz": 0.0017598241805899999,
+        "kext_MHz": 8.896866370404995,
+        "ktotal_MHz": 8.898626194585583,
+        "T1_est_us": 372.5996712959383,
+        "chi_over_k": 0.10841367262023638
+      },
+      "Q2": {
+        "fr_GHz": 6.3924104474,
+        "fq_GHz": 5.0341483165,
+        "chi_MHz": 2.9773869177165553,
+        "kint_MHz": 0.0015981026118499998,
+        "kext_MHz": 6.847107218106628,
+        "ktotal_MHz": 6.848705320718478,
+        "T1_est_us": 1072991.066217229,
+        "chi_over_k": 0.4347371916717547
+      },
+      "hfss_max_last_pass_delta_GHz": 0.22994173500416082,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0334_qxsep0p025_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0310"
+    },
+    {
+      "json": "sqchip_0335_qxsep0p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_063731__baseline.json",
+      "sample": "sqchip_0335_qxsep0p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_063731__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0335_qxsep0p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_063731__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.06360800665,
+        "fq_GHz": 5.11621342096,
+        "chi_MHz": 1.0509817792687832,
+        "kint_MHz": 0.0017659020016625,
+        "kext_MHz": 8.994351665692113,
+        "ktotal_MHz": 8.996117567693776,
+        "T1_est_us": 94.68207688802022,
+        "chi_over_k": 0.1168261498763639
+      },
+      "Q2": {
+        "fr_GHz": 6.42976675887,
+        "fq_GHz": 5.06364755678,
+        "chi_MHz": 3.0116691066544385,
+        "kint_MHz": 0.0016074416897175,
+        "kext_MHz": 6.9742084128747965,
+        "ktotal_MHz": 6.975815854564514,
+        "T1_est_us": 394.0579354265039,
+        "chi_over_k": 0.4317300183151768
+      },
+      "hfss_max_last_pass_delta_GHz": 0.17417197622271985,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0335_qxsep0p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0311"
+    },
+    {
+      "json": "sqchip_0336_qxsep0p0125_rev_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_065921__baseline.json",
+      "sample": "sqchip_0336_qxsep0p0125_rev_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_065921__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0336_qxsep0p0125_rev_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_065921__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.00561778715,
+        "fq_GHz": 5.23911717243,
+        "chi_MHz": 0.8819129404245531,
+        "kint_MHz": 0.0017514044467875,
+        "kext_MHz": 8.783560180675535,
+        "ktotal_MHz": 8.785311585122322,
+        "T1_est_us": 2138.9065582928365,
+        "chi_over_k": 0.10038493591030372
+      },
+      "Q2": {
+        "fr_GHz": 6.37891144476,
+        "fq_GHz": 5.08905673977,
+        "chi_MHz": 2.8601653176605666,
+        "kint_MHz": 0.0015947278611900002,
+        "kext_MHz": 6.8024354689742434,
+        "ktotal_MHz": 6.804030196835434,
+        "T1_est_us": 129.52064245339133,
+        "chi_over_k": 0.42036340740974876
+      },
+      "hfss_max_last_pass_delta_GHz": 0.2495863722835301,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0336_qxsep0p0125_rev_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0312"
+    },
+    {
+      "json": "sqchip_0338_qxsep0p0125_qysep3p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_072351__baseline.json",
+      "sample": "sqchip_0338_qxsep0p0125_qysep3p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_072351__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0338_qxsep0p0125_qysep3p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_072351__baseline.gds",
+      "Q1": {
+        "fr_GHz": 6.95880727744,
+        "fq_GHz": 5.12451163402,
+        "chi_MHz": 0.9465971552076532,
+        "kint_MHz": 0.00173970181936,
+        "kext_MHz": 8.583029361875152,
+        "ktotal_MHz": 8.584769063694512,
+        "T1_est_us": 131.76733932866426,
+        "chi_over_k": 0.11026471978272166
+      },
+      "Q2": {
+        "fr_GHz": 6.37614285628,
+        "fq_GHz": 5.05953610301,
+        "chi_MHz": 2.814537187194594,
+        "kint_MHz": 0.0015940357140700003,
+        "kext_MHz": 6.7996649223552,
+        "ktotal_MHz": 6.801258958069271,
+        "T1_est_us": 581.9253652209601,
+        "chi_over_k": 0.41382591143001857
+      },
+      "hfss_max_last_pass_delta_GHz": 0.22947964826208977,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0338_qxsep0p0125_qysep3p0125_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0313"
+    },
+    {
+      "json": "sqchip_0340_qxsep0p0125_qysep3p00625_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_080938__baseline.json",
+      "sample": "sqchip_0340_qxsep0p0125_qysep3p00625_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_080938__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0340_qxsep0p0125_qysep3p00625_lj2_10p5_ro2stub14p90_modes8_pass10_q3d_20260524_080938__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.08549820153,
+        "fq_GHz": 5.24596544649,
+        "chi_MHz": 1.2292188817478262,
+        "kint_MHz": 0.0017713745503825,
+        "kext_MHz": 9.240136774335156,
+        "ktotal_MHz": 9.241908148885537,
+        "T1_est_us": 897.237203946242,
+        "chi_over_k": 0.13300487972238237
+      },
+      "Q2": {
+        "fr_GHz": 6.4372860483,
+        "fq_GHz": 4.95172221084,
+        "chi_MHz": 2.956829071874713,
+        "kint_MHz": 0.0016093215120750002,
+        "kext_MHz": 6.976516272799583,
+        "ktotal_MHz": 6.978125594311658,
+        "T1_est_us": 57.069718078848744,
+        "chi_over_k": 0.42372826798718327
+      },
+      "hfss_max_last_pass_delta_GHz": 0.2012793599062599,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0340_qxsep0p0125_qysep3p00625_lj2_10p5_ro2stub14p90_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0315"
+    },
+    {
+      "json": "sqchip_0343_qxsep0p0125_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_092228__baseline.json",
+      "sample": "sqchip_0343_qxsep0p0125_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_092228__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0343_qxsep0p0125_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_092228__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.06360800665,
+        "fq_GHz": 5.11621342096,
+        "chi_MHz": 1.0509817792687832,
+        "kint_MHz": 0.0017659020016625,
+        "kext_MHz": 9.386205867956061,
+        "ktotal_MHz": 9.387971769957723,
+        "T1_est_us": 90.7300443705837,
+        "chi_over_k": 0.1119498231377315
+      },
+      "Q2": {
+        "fr_GHz": 6.42976675887,
+        "fq_GHz": 5.06364755678,
+        "chi_MHz": 3.0116691066544385,
+        "kint_MHz": 0.0016074416897175,
+        "kext_MHz": 6.966395506251148,
+        "ktotal_MHz": 6.968002947940866,
+        "T1_est_us": 162.4845209353801,
+        "chi_over_k": 0.4322140976625771
+      },
+      "hfss_max_last_pass_delta_GHz": 0.17417197622271985,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0343_qxsep0p0125_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0318"
+    },
+    {
+      "json": "sqchip_0346_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_094814__baseline.json",
+      "sample": "sqchip_0346_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_094814__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0346_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_094814__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.11479336938,
+        "fq_GHz": 5.1715085389,
+        "chi_MHz": 1.1623000630774714,
+        "kint_MHz": 0.0017786983423450002,
+        "kext_MHz": 9.59173518234608,
+        "ktotal_MHz": 9.593513880688425,
+        "T1_est_us": 216.90788035374308,
+        "chi_over_k": 0.121154779941181
+      },
+      "Q2": {
+        "fr_GHz": 6.45407542177,
+        "fq_GHz": 5.05096339523,
+        "chi_MHz": 3.204838890385102,
+        "kint_MHz": 0.0016135188554424998,
+        "kext_MHz": 7.0457069968975246,
+        "ktotal_MHz": 7.047320515752967,
+        "T1_est_us": 297.28782010299653,
+        "chi_over_k": 0.45475991665503
+      },
+      "hfss_max_last_pass_delta_GHz": 0.14957356426089952,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0346_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0320"
+    },
+    {
+      "json": "sqchip_0348_qxsep0p0125_ro1stub14p28_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_101334__baseline.json",
+      "sample": "sqchip_0348_qxsep0p0125_ro1stub14p28_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_101334__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0348_qxsep0p0125_ro1stub14p28_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_101334__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.03109748479,
+        "fq_GHz": 5.158959162,
+        "chi_MHz": 1.1699127685567254,
+        "kint_MHz": 0.0017577743711975,
+        "kext_MHz": 8.876790670305429,
+        "ktotal_MHz": 8.878548444676627,
+        "T1_est_us": 104.19709566285891,
+        "chi_over_k": 0.13176847272350903
+      },
+      "Q2": {
+        "fr_GHz": 6.42325185696,
+        "fq_GHz": 5.02283893861,
+        "chi_MHz": 2.910693746205509,
+        "kint_MHz": 0.00160581296424,
+        "kext_MHz": 6.951948328978548,
+        "ktotal_MHz": 6.953554141942788,
+        "T1_est_us": 10226.593944243632,
+        "chi_over_k": 0.41859079354090944
+      },
+      "hfss_max_last_pass_delta_GHz": 0.22197597422099058,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0348_qxsep0p0125_ro1stub14p28_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0322"
+    },
+    {
+      "json": "sqchip_0351_qxsep0p0125_ro1teegap70_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_104300__baseline.json",
+      "sample": "sqchip_0351_qxsep0p0125_ro1teegap70_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_104300__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0351_qxsep0p0125_ro1teegap70_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_104300__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.06179164128,
+        "fq_GHz": 5.1509234263,
+        "chi_MHz": 0.9742251374454789,
+        "kint_MHz": 0.0017654479103199998,
+        "kext_MHz": 8.93620360525937,
+        "ktotal_MHz": 8.93796905316969,
+        "T1_est_us": 150.5378096322751,
+        "chi_over_k": 0.10899849078130198
+      },
+      "Q2": {
+        "fr_GHz": 6.45230850816,
+        "fq_GHz": 5.09775568416,
+        "chi_MHz": 2.816674095499374,
+        "kint_MHz": 0.0016130771270400001,
+        "kext_MHz": 7.039921932308175,
+        "ktotal_MHz": 7.041535009435216,
+        "T1_est_us": 59.64249675422916,
+        "chi_over_k": 0.4000085338956928
+      },
+      "hfss_max_last_pass_delta_GHz": 0.18972396996526975,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0351_qxsep0p0125_ro1teegap70_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0324"
+    },
+    {
+      "json": "sqchip_0360_0320_rodx3p15_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_123901__baseline.json",
+      "sample": "sqchip_0360_0320_rodx3p15_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_123901__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0360_0320_rodx3p15_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_123901__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.03396137283,
+        "fq_GHz": 5.11893333488,
+        "chi_MHz": 1.0389677964784347,
+        "kint_MHz": 0.0017584903432075,
+        "kext_MHz": 9.240077427198989,
+        "ktotal_MHz": 9.241835917542197,
+        "T1_est_us": 73.67551240203775,
+        "chi_over_k": 0.11242006520656136
+      },
+      "Q2": {
+        "fr_GHz": 6.40329414203,
+        "fq_GHz": 4.97533391552,
+        "chi_MHz": 2.8853783389142404,
+        "kint_MHz": 0.0016008235355074998,
+        "kext_MHz": 6.776272481914869,
+        "ktotal_MHz": 6.7778733054503775,
+        "T1_est_us": 228.03866073933509,
+        "chi_over_k": 0.4257055582012701
+      },
+      "hfss_max_last_pass_delta_GHz": 0.1982396641225499,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0360_0320_rodx3p15_qxsep0p0125_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0330"
+    },
+    {
+      "json": "sqchip_0363_0320_qxsep0p01875_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_132308__baseline.json",
+      "sample": "sqchip_0363_0320_qxsep0p01875_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_132308__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0363_0320_qxsep0p01875_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_132308__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.0394642855,
+        "fq_GHz": 5.20617817757,
+        "chi_MHz": 1.0540310870333163,
+        "kint_MHz": 0.001759866071375,
+        "kext_MHz": 8.901486525228329,
+        "ktotal_MHz": 8.903246391299705,
+        "T1_est_us": 1300.00491516505,
+        "chi_over_k": 0.11838727591132607
+      },
+      "Q2": {
+        "fr_GHz": 6.41748873146,
+        "fq_GHz": 5.04506382354,
+        "chi_MHz": 3.013994318088052,
+        "kint_MHz": 0.001604372182865,
+        "kext_MHz": 6.969375406192353,
+        "ktotal_MHz": 6.970979778375217,
+        "T1_est_us": 460.45297320889904,
+        "chi_over_k": 0.43236308437413773
+      },
+      "hfss_max_last_pass_delta_GHz": 0.1851455835014999,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0363_0320_qxsep0p01875_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0332"
+    },
+    {
+      "json": "sqchip_0366_0320_qxsep0p015625_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_140847__baseline.json",
+      "sample": "sqchip_0366_0320_qxsep0p015625_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_140847__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0366_0320_qxsep0p015625_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_140847__baseline.gds",
+      "Q1": {
+        "fr_GHz": 6.98424290651,
+        "fq_GHz": 5.196765272,
+        "chi_MHz": 1.036599789001892,
+        "kint_MHz": 0.0017460607266275,
+        "kext_MHz": 8.703583566412796,
+        "ktotal_MHz": 8.705329627139424,
+        "T1_est_us": 745.2470249202564,
+        "chi_over_k": 0.1190764547008336
+      },
+      "Q2": {
+        "fr_GHz": 6.41680564966,
+        "fq_GHz": 5.0212976341,
+        "chi_MHz": 2.6678592816583797,
+        "kint_MHz": 0.0016042014124150001,
+        "kext_MHz": 6.9759346406551,
+        "ktotal_MHz": 6.977538842067515,
+        "T1_est_us": 19941.910891527285,
+        "chi_over_k": 0.3823496138171072
+      },
+      "hfss_max_last_pass_delta_GHz": 0.2651706306452102,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0366_0320_qxsep0p015625_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0334"
+    },
+    {
+      "json": "sqchip_0367_0320_qxsep0p0125_qysep2p99375_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_143617__baseline.json",
+      "sample": "sqchip_0367_0320_qxsep0p0125_qysep2p99375_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_143617__baseline",
+      "pass": true,
+      "reasons": [],
+      "gds": "sqchip_0367_0320_qxsep0p0125_qysep2p99375_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d_20260524_143617__baseline.gds",
+      "Q1": {
+        "fr_GHz": 7.06729099865,
+        "fq_GHz": 5.1810634842,
+        "chi_MHz": 1.01900142503351,
+        "kint_MHz": 0.0017668227496625,
+        "kext_MHz": 9.38916365233644,
+        "ktotal_MHz": 9.390930475086105,
+        "T1_est_us": 349.56401397066907,
+        "chi_over_k": 0.10850910117340283
+      },
+      "Q2": {
+        "fr_GHz": 6.4347120262,
+        "fq_GHz": 5.06781709668,
+        "chi_MHz": 2.998713833254259,
+        "kint_MHz": 0.00160867800655,
+        "kext_MHz": 6.961636551251991,
+        "ktotal_MHz": 6.963245229258541,
+        "T1_est_us": 143.97375312343496,
+        "chi_over_k": 0.4306488906428429
+      },
+      "hfss_max_last_pass_delta_GHz": 0.12757865864954,
+      "hfss_setup": {
+        "n_modes": 8,
+        "max_passes": 10,
+        "min_passes": 10
+      },
+      "record_title": "auto_sqchip_0367_0320_qxsep0p0125_qysep2p99375_ro1stub14p33_ro2stub14p95_lj2_10p5_modes8_pass10_q3d",
+      "record_id": "2Q-RUN-0335"
+    }
+  ],
+  "moves": {
+    "json": [],
+    "gds": [
+      {
+        "src": "data/sqchip_em_2q/gds\\sqchip_run60body_ro1l11p70_ro2l10p60_lj1p7p4_feed3p0_space1100_qmin3p8_rmax7p0_rpm0p08_teegap100_teew0p2_teed170_flen10_fcount1_swaptrue_q1gap0p8_q2ropad400_gap1p4_qi11000_q3dreal_20260520_194147__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\sqchip_run60body_ro1l11p70_ro2l10p60_lj1p7p4_feed3p0_space1100_qmin3p8_rmax7p0_rpm0p08_teegap100_teew0p2_teed170_flen10_fcount1_swaptrue_q1gap0p8_q2ropad400_gap1p4_qi11000_q3dreal_20260520_194147__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\sqchip_sens_lj1_5p0_cj1_2p0_hfssonly__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\sqchip_sens_lj1_5p0_cj1_2p0_hfssonly__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\sqchip_sens_lj1_5p1_cj1_2p0_hfssonly__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\sqchip_sens_lj1_5p1_cj1_2p0_hfssonly__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\sqchip_sens_lj1_5p2_cj1_2p0_hfssonly__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\sqchip_sens_lj1_5p2_cj1_2p0_hfssonly__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\sqchip_sens_lj1_5p5_cj1_2p0_hfssonly__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\sqchip_sens_lj1_5p5_cj1_2p0_hfssonly__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\strict_sync_20260519_a__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\strict_sync_20260519_a__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\strict_sync_20260519_b__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\strict_sync_20260519_b__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\strict_sync_20260519_c_lj1_6p8__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\strict_sync_20260519_c_lj1_6p8__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      },
+      {
+        "src": "data/sqchip_em_2q/gds\\strict_sync_20260519_fresh_baseline__baseline.gds",
+        "dest": "data/sqchip_em_2q/gds_tmp\\strict_sync_20260519_fresh_baseline__baseline.gds",
+        "executed": true,
+        "status": "moved"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "created_utc": "2026-01-29T10:13:27.512978+00:00",
+    "updated_utc": "2026-01-29T10:18:27.529671+00:00",
+    "sample_id": "chip_simple_dxm1p818_dy8p182__Lj12p0nH_Cj2p0fF__roL8p5mm__tee_fl160um_fc12_cg1p2um__rpg1p4um",
+    "units": {
+      "f": "GHz",
+      "kappa": "Hz",
+      "C": "fF",
+      "K": "MHz",
+      "T": "us"
+    },
+    "filename_base": "chip_simple_dxm1p818_dy8p182__Lj12p0nH_Cj2p0fF__roL8p5mm__tee_fl160um_fc12_cg1p2um__rpg1p4um",
+    "ansys_sim_tag": "f7e23b98",
+    "gds_path": "data/sqchip_em_1q/gds\\chip_simple_dxm1p818_dy8p182__Lj12p0nH_Cj2p0fF__roL8p5mm__tee_fl160um_fc12_cg1p2um__rpg1p4um.gds",
+    "gds_export_mode": "safe",
+    "gds_error": "",
+    "epr_sol_columns": [
+      "U_H",
+      "U_E",
+      "Qdielectric_main"
+    ]
+  },
+  "resonators": {
+    "readout": {
+      "f_GHz": 6.07511708902,
+      "K_MHz": 0.04950172264289856,
+      "modes_f_GHz": [
+        2.22024360204,
+        4.68706864521,
+        6.07511708902,
+        7.71353735159
+      ],
+      "picked_qubit_mode_index": 1,
+      "picked_res_mode_index": 2,
+      "Qi": 1252.1427475897276,
+      "kappa_i_over_2pi_Hz": 4851776.764840992,
+      "external": {
+        "Cin_fF": 52.01682,
+        "pair": "cap_body_0_RO_TEE <-> pad_top_Q1 (fallback)",
+        "res_node": "pad_top_Q1",
+        "feed_node": "cap_body_0_RO_TEE",
+        "kappa_Hz": 6066686.52963918,
+        "kappa_over_2pi_Hz": 965543.1493810917,
+        "Qe": 6291.916723674254
+      },
+      "kappa_over_2pi_Hz": 5817319.914222084,
+      "Q_loaded": 1044.315454298406,
+      "warnings": [
+        "Qi recalculated from inferred p=0.00222: tan_delta=0.36 (assumed EPR tan_delta=0.0004), Qi=1.25e+03"
+      ],
+      "T1_photon_us": 0.027358808770821776,
+      "kappa_i_over_kappa_e": 5.024919671327953
+    }
+  },
+  "qubits": {
+    "Q1": {
+      "Lj_H": 1.2000000000000002e-08,
+      "Cj_fF": 2.0,
+      "C_eff_fF": 76.96346527707337,
+      "f01_epr_GHz": 4.68706864521,
+      "alpha_epr_MHz": -214.3882813903942,
+      "chi_MHz": 5.952970358833313,
+      "dispersive": {
+        "chi_GHz": 0.005952970358833313,
+        "Delta_GHz": -1.3880484438099998,
+        "g_GHz": 0.24851871265232672
+      },
+      "energies": {
+        "Ec_GHz": 0.25168083654919987,
+        "Ej_GHz": 13.621792733898427,
+        "Ej_over_Ec": 54.12328137758542
+      },
+      "f01_transmon_GHz": 4.9853749703464025,
+      "Q_dielectric_main": 1089470.9273244634,
+      "T1_dielectric_us": 36.99427010009806,
+      "T1_purcell_us": 0.8534699615270979,
+      "T1_est_us": 0.8342241367026026,
+      "T2_est_us": 1.6684482734052053
+    }
+  },
+  "q3d": {
+    "internal": {
+      "capacitances_fF": {
+        "units": "fF",
+        "nodes": [
+          "cap_body_0_RO_TEE",
+          "pad_bot_Q1",
+          "pad_top_Q1"
+        ],
+        "capacitance_matrix_fF": {
+          "cap_body_0_RO_TEE": {
+            "cap_body_0_RO_TEE": 613.83,
+            "pad_bot_Q1": -5.35446,
+            "pad_top_Q1": -52.01682
+          },
+          "pad_bot_Q1": {
+            "cap_body_0_RO_TEE": -5.35446,
+            "pad_bot_Q1": 99.00266,
+            "pad_top_Q1": -37.77702
+          },
+          "pad_top_Q1": {
+            "cap_body_0_RO_TEE": -52.01682,
+            "pad_bot_Q1": -37.77702,
+            "pad_top_Q1": 132.48751
+          }
+        }
+      }
+    },
+    "external": {
+      "units": "fF",
+      "Cin_fF": 52.01682,
+      "res_node": "pad_top_Q1",
+      "feed_node": "cap_body_0_RO_TEE",
+      "pair": "cap_body_0_RO_TEE <-> pad_top_Q1 (fallback)"
+    }
+  },
+  "chip": {
+    "T1_qubit_est_us": 0.8342241367026026,
+    "T2_qubit_est_us": 1.6684482734052053,
+    "T1_qubit_dielectric_us": 36.99427010009806,
+    "T1_qubit_purcell_us": 0.8534699615270979,
+    "chi_over_kappa": 1.0233183745455692,
+    "readout_f_GHz": 6.07511708902,
+    "readout_kappa_over_2pi_Hz": 5817319.914222084,
+    "readout_kappa_over_2pi_MHz": 5.817319914222084,
+    "readout_Cin_fF": 52.01682,
+    "qubit_f_GHz": 4.68706864521,
+    "chi_MHz": 5.952970358833313,
+    "g_over_2pi_MHz": 248.5187126523267
+  },
+  "status": "completed"
+}

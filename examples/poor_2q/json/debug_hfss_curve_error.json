@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "created_utc": "2026-02-28T19:22:46.674845+00:00",
+    "updated_utc": "2026-02-28T19:28:25.355667+00:00",
+    "sample_id": "debug_hfss_curve_error",
+    "units": {
+      "f": "GHz",
+      "kappa": "Hz",
+      "C": "fF",
+      "K": "MHz",
+      "T": "us"
+    },
+    "filename_base": "debug_hfss_curve_error",
+    "ansys_sim_tag": "aee2691c",
+    "gds_path": "examples/poor_2q/gds/debug_hfss_curve_error.gds",
+    "gds_export_mode": "safe",
+    "gds_error": "",
+    "epr_error": "(-2147352567, '发生意外。', (0, None, None, None, 0, -2147024382), None)",
+    "hfss_error": "(-2147352567, '发生意外。', (0, None, None, None, 0, -2147024382), None)",
+    "hfss_traceback_tail": [
+      "Traceback (most recent call last):",
+      "  File \"E:\\quantum-env\\metal_data\\metal_KDD_2qubit.py\", line 1364, in run_analysis_pipeline_2q",
+      "    raise epr_error",
+      "  File \"E:\\quantum-env\\metal_data\\metal_KDD_2qubit.py\", line 1347, in run_analysis_pipeline_2q",
+      "    eig.run_analysis()",
+      "  File \"E:\\quantum-env\\metal_data\\tmp_external\\qiskit-metal\\src\\qiskit_metal\\analyses\\quantization\\energy_participation_ratio.py\", line 219, in run_analysis",
+      "    self.sim.renderer.epr_run_analysis()",
+      "  File \"E:\\quantum-env\\metal_data\\tmp_external\\qiskit-metal\\src\\qiskit_metal\\renderers\\renderer_ansys\\ansys_renderer.py\", line 1759, in epr_run_analysis",
+      "    self.epr_distributed_analysis.do_EPR_analysis()",
+      "  File \"D:\\python310\\lib\\site-packages\\pyEPR\\core_distributed_analysis.py\", line 1322, in do_EPR_analysis",
+      "    self._update_results(variation, Om, Pm, Sm, Qm_coupling, SOL,",
+      "  File \"D:\\python310\\lib\\site-packages\\pyEPR\\core_distributed_analysis.py\", line 1372, in _update_results",
+      "    self.results[variation]['convergence_f_pass'] = self.hfss_report_f_convergence(",
+      "  File \"D:\\python310\\lib\\site-packages\\pyEPR\\core_distributed_analysis.py\", line 1578, in hfss_report_f_convergence",
+      "    set_property(report, 'Attributes', curves, 'Line Width', 3)",
+      "  File \"D:\\python310\\lib\\site-packages\\pyEPR\\ansys.py\", line 357, in set_property",
+      "    return prop_holder.ChangeProperty([",
+      "  File \"<COMObject GetModule>\", line 2, in ChangeProperty",
+      "pywintypes.com_error: (-2147352567, '发生意外。', (0, None, None, None, 0, -2147024382), None)"
+    ]
+  },
+  "resonators": {
+    "readout1": {
+      "f_GHz": null,
+      "K_MHz": null,
+      "modes_f_GHz": [
+        1.92635510481,
+        2.13886222503,
+        2.66550137277,
+        4.35517074174,
+        4.70503698567,
+        4.93504886577,
+        5.19204318707,
+        6.10547970882
+      ],
+      "picked_qubit_mode_index": null,
+      "picked_res_mode_index": null,
+      "Qi": null,
+      "kappa_i_over_2pi_Hz": null,
+      "external": {
+        "Cin_fF": null,
+        "pair": null,
+        "res_node": null,
+        "feed_node": null,
+        "kappa_Hz": null,
+        "kappa_over_2pi_Hz": null,
+        "Qe": null
+      },
+      "kappa_over_2pi_Hz": null,
+      "Q_loaded": null,
+      "warnings": [],
+      "T1_photon_us": null,
+      "kappa_i_over_kappa_e": null
+    },
+    "readout2": {
+      "f_GHz": null,
+      "K_MHz": null,
+      "modes_f_GHz": [
+        1.92635510481,
+        2.13886222503,
+        2.66550137277,
+        4.35517074174,
+        4.70503698567,
+        4.93504886577,
+        5.19204318707,
+        6.10547970882
+      ],
+      "picked_qubit_mode_index": null,
+      "picked_res_mode_index": null,
+      "Qi": null,
+      "kappa_i_over_2pi_Hz": null,
+      "external": {
+        "Cin_fF": null,
+        "pair": null,
+        "res_node": null,
+        "feed_node": null,
+        "kappa_Hz": null,
+        "kappa_over_2pi_Hz": null,
+        "Qe": null
+      },
+      "kappa_over_2pi_Hz": null,
+      "Q_loaded": null,
+      "warnings": [],
+      "T1_photon_us": null,
+      "kappa_i_over_kappa_e": null
+    }
+  },
+  "qubits": {
+    "Q1": {
+      "Lj_H": 7.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": null,
+      "f01_epr_GHz": null,
+      "alpha_epr_MHz": null,
+      "chi_MHz": null,
+      "dispersive": {
+        "chi_GHz": null,
+        "Delta_GHz": null,
+        "g_GHz": null
+      },
+      "energies": {
+        "Ec_GHz": null,
+        "Ej_GHz": 23.351644686683017,
+        "Ej_over_Ec": null
+      },
+      "f01_transmon_GHz": null,
+      "Q_dielectric_main": null,
+      "T1_dielectric_us": null,
+      "T1_purcell_us": null,
+      "T1_est_us": null,
+      "T2_est_us": null
+    },
+    "Q2": {
+      "Lj_H": 9.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": null,
+      "f01_epr_GHz": null,
+      "alpha_epr_MHz": null,
+      "chi_MHz": null,
+      "dispersive": {
+        "chi_GHz": null,
+        "Delta_GHz": null,
+        "g_GHz": null
+      },
+      "energies": {
+        "Ec_GHz": null,
+        "Ej_GHz": 18.16239031186457,
+        "Ej_over_Ec": null
+      },
+      "f01_transmon_GHz": null,
+      "Q_dielectric_main": null,
+      "T1_dielectric_us": null,
+      "T1_purcell_us": null,
+      "T1_est_us": null,
+      "T2_est_us": null
+    }
+  },
+  "q3d": {
+    "internal": {},
+    "external": {}
+  },
+  "chip": {
+    "T1_qubit1_est_us": null,
+    "T2_qubit1_est_us": null,
+    "T1_qubit2_est_us": null,
+    "T2_qubit2_est_us": null,
+    "chi12_MHz": null,
+    "chi1_over_kappa1": null,
+    "chi2_over_kappa2": null
+  },
+  "status": "completed"
+}

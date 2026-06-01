@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "created_utc": "2026-02-28T19:29:55.535065+00:00",
+    "updated_utc": "2026-02-28T19:32:38.692864+00:00",
+    "sample_id": "debug_hfss_convergence_patch",
+    "units": {
+      "f": "GHz",
+      "kappa": "Hz",
+      "C": "fF",
+      "K": "MHz",
+      "T": "us"
+    },
+    "filename_base": "debug_hfss_convergence_patch",
+    "ansys_sim_tag": "ce341ba7",
+    "gds_path": "examples/poor_2q/gds/debug_hfss_convergence_patch.gds",
+    "gds_export_mode": "safe",
+    "gds_error": "",
+    "mode_picker": {
+      "n_modes": 8,
+      "q_window_GHz": [
+        4.0,
+        5.0
+      ],
+      "r_window_GHz": [
+        5.0,
+        6.0
+      ],
+      "q_pick": {
+        "window_GHz": [
+          4.0,
+          5.0
+        ],
+        "window_used_GHz": [
+          4.0,
+          5.0
+        ],
+        "expand_GHz": 0.0,
+        "candidates": [
+          3,
+          4,
+          5
+        ]
+      },
+      "r_pick": {
+        "window_GHz": [
+          5.0,
+          6.0
+        ],
+        "window_used_GHz": [
+          4.75,
+          6.25
+        ],
+        "expand_GHz": 0.25,
+        "candidates": [
+          5,
+          6
+        ]
+      },
+      "kerr_floor_MHz": 0.05,
+      "q_kerr_min_MHz": 1.0,
+      "n_qubit_like": 4,
+      "selected": {
+        "q1": 3,
+        "q2": 4,
+        "r1": 5,
+        "r2": 6
+      },
+      "warnings": [
+        "Resonator window expanded by ±0.25 GHz: [4.75,6.25] (base [5.0,6.0] had 1/2 candidates)"
+      ]
+    },
+    "epr_sol_columns": [
+      "U_H",
+      "U_E",
+      "Qdielectric_main"
+    ]
+  },
+  "resonators": {
+    "readout1": {
+      "f_GHz": 4.9187892465,
+      "K_MHz": 3.0796536363967397,
+      "modes_f_GHz": [
+        1.99528014178,
+        2.29583982923,
+        2.64999710643,
+        4.32669517077,
+        4.78816829398,
+        4.9187892465,
+        5.17693132862,
+        6.43526000119
+      ],
+      "picked_qubit_mode_index": 3,
+      "picked_res_mode_index": 5,
+      "Qi": 4557544.836427605,
+      "kappa_i_over_2pi_Hz": 1079.2629415699953,
+      "external": {
+        "Cin_fF": null,
+        "pair": null,
+        "res_node": null,
+        "feed_node": null,
+        "kappa_Hz": null,
+        "kappa_over_2pi_Hz": null,
+        "Qe": null
+      },
+      "kappa_over_2pi_Hz": 1079.2629415699953,
+      "Q_loaded": 4557544.836427605,
+      "warnings": [
+        "Resonator window expanded by ±0.25 GHz: [4.75,6.25] (base [5.0,6.0] had 1/2 candidates)",
+        "Qi recalculated from inferred p=0.00219: tan_delta=0.0001 (assumed EPR tan_delta=0.0004), Qi=4.56e+06"
+      ],
+      "T1_photon_us": 147.46632814091987,
+      "kappa_i_over_kappa_e": null
+    },
+    "readout2": {
+      "f_GHz": 5.17693132862,
+      "K_MHz": 2.0469660578641,
+      "modes_f_GHz": [
+        1.99528014178,
+        2.29583982923,
+        2.64999710643,
+        4.32669517077,
+        4.78816829398,
+        4.9187892465,
+        5.17693132862,
+        6.43526000119
+      ],
+      "picked_qubit_mode_index": 4,
+      "picked_res_mode_index": 6,
+      "Qi": 4685914.845816832,
+      "kappa_i_over_2pi_Hz": 1104.785617954945,
+      "external": {
+        "Cin_fF": null,
+        "pair": null,
+        "res_node": null,
+        "feed_node": null,
+        "kappa_Hz": null,
+        "kappa_over_2pi_Hz": null,
+        "Qe": null
+      },
+      "kappa_over_2pi_Hz": 1104.785617954945,
+      "Q_loaded": 4685914.845816832,
+      "warnings": [
+        "Resonator window expanded by ±0.25 GHz: [4.75,6.25] (base [5.0,6.0] had 1/2 candidates)",
+        "Qi recalculated from inferred p=0.00213: tan_delta=0.0001 (assumed EPR tan_delta=0.0004), Qi=4.69e+06"
+      ],
+      "T1_photon_us": 144.05957183485523,
+      "kappa_i_over_kappa_e": null
+    }
+  },
+  "qubits": {
+    "Q1": {
+      "Lj_H": 7.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": null,
+      "f01_epr_GHz": 4.32669517077,
+      "alpha_epr_MHz": -109.31028243863965,
+      "chi_MHz": 5.132169070956364,
+      "dispersive": {
+        "chi_GHz": 0.005132169070956364,
+        "Delta_GHz": -0.5920940757300004,
+        "g_GHz": 0.13963669372983084
+      },
+      "energies": {
+        "Ec_GHz": null,
+        "Ej_GHz": 23.351644686683017,
+        "Ej_over_Ec": null
+      },
+      "f01_transmon_GHz": null,
+      "Q_dielectric_main": 1098264.3880615393,
+      "T1_dielectric_us": 40.39901108879883,
+      "T1_purcell_us": 2651.399583146478,
+      "T1_est_us": 39.792695259506054,
+      "T2_est_us": 79.58539051901211
+    },
+    "Q2": {
+      "Lj_H": 9.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": null,
+      "f01_epr_GHz": 4.78816829398,
+      "alpha_epr_MHz": -54.685267556456786,
+      "chi_MHz": 21.058073349223758,
+      "dispersive": {
+        "chi_GHz": 0.021058073349223758,
+        "Delta_GHz": -0.38876303464000017,
+        "g_GHz": 0.25765473402248634
+      },
+      "energies": {
+        "Ec_GHz": null,
+        "Ej_GHz": 18.16239031186457,
+        "Ej_over_Ec": null
+      },
+      "f01_transmon_GHz": null,
+      "Q_dielectric_main": 1135500.0333634117,
+      "T1_dielectric_us": 37.74312682743684,
+      "T1_purcell_us": 327.97126423900596,
+      "T1_est_us": 33.84789148119318,
+      "T2_est_us": 67.69578296238636
+    }
+  },
+  "q3d": {
+    "internal": {},
+    "external": {}
+  },
+  "chip": {
+    "T1_qubit1_est_us": 39.792695259506054,
+    "T2_qubit1_est_us": 79.58539051901211,
+    "T1_qubit2_est_us": 33.84789148119318,
+    "T2_qubit2_est_us": 67.69578296238636,
+    "chi12_MHz": 0.77491651896754,
+    "chi1_over_kappa1": 4755.2536766347575,
+    "chi2_over_kappa2": 19060.777952743534
+  },
+  "status": "completed"
+}

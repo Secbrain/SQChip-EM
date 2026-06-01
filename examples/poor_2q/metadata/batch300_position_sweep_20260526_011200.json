@@ -1,0 +1,104 @@
+{
+  "batch_size": 2,
+  "total": 300,
+  "start_cursor": 81,
+  "end_cursor": 83,
+  "processed_this_run": 2,
+  "results": [
+    {
+      "index": 81,
+      "run_id": "batch300_2q_081_qxm0p0083333_qy3p0416667_rdx3p15",
+      "status": "completed",
+      "json": "batch300_2q_081_qxm0p0083333_qy3p0416667_rdx3p15.json",
+      "gds": "batch300_2q_081_qxm0p0083333_qy3p0416667_rdx3p15.gds",
+      "point": {
+        "qxsep_mm": -0.0083333,
+        "qysep_mm": 3.0416667,
+        "ro_dx_mm": 3.15,
+        "q1_x_mm": 0.0041667,
+        "q2_x_mm": -0.0041667,
+        "q1_y_mm": 1.5208333,
+        "q2_y_mm": -1.5208333
+      },
+      "metrics": {
+        "Q1": {
+          "f01_epr_GHz": 5.235473846,
+          "f01_transmon_GHz": 5.980916775151799,
+          "alpha_epr_MHz": -184.04120225099697,
+          "chi_MHz": 1.1232388120311023,
+          "T1_est_us": 319551.6847050957
+        },
+        "Q2": {
+          "f01_epr_GHz": 5.09201239728,
+          "f01_transmon_GHz": 5.847356410274918,
+          "alpha_epr_MHz": -181.79607677411744,
+          "chi_MHz": 3.2218661543582683,
+          "T1_est_us": 63.11091529218399
+        },
+        "readout1": {
+          "f_GHz": 7.07698635928,
+          "kappa_i_over_2pi_Hz": 1769.2465898199998,
+          "kappa_ext_over_2pi_Hz": 9086645.805024575,
+          "kappa_over_2pi_Hz": 9088415.051614396,
+          "Q_loaded": 778.6821265411837
+        },
+        "readout2": {
+          "f_GHz": 6.43328830989,
+          "kappa_i_over_2pi_Hz": 1608.3220774725,
+          "kappa_ext_over_2pi_Hz": 6890535.778233313,
+          "kappa_over_2pi_Hz": 6892144.100310786,
+          "Q_loaded": 933.4233608957633
+        }
+      }
+    },
+    {
+      "index": 82,
+      "run_id": "batch300_2q_082_qxm0p0041667_qy3p0416667_rdx3p15",
+      "status": "completed",
+      "json": "batch300_2q_082_qxm0p0041667_qy3p0416667_rdx3p15.json",
+      "gds": "batch300_2q_082_qxm0p0041667_qy3p0416667_rdx3p15.gds",
+      "point": {
+        "qxsep_mm": -0.0041667,
+        "qysep_mm": 3.0416667,
+        "ro_dx_mm": 3.15,
+        "q1_x_mm": 0.0020833,
+        "q2_x_mm": -0.0020833,
+        "q1_y_mm": 1.5208333,
+        "q2_y_mm": -1.5208333
+      },
+      "metrics": {
+        "Q1": {
+          "f01_epr_GHz": 5.22472232177,
+          "f01_transmon_GHz": 5.980916941875008,
+          "alpha_epr_MHz": -181.16497629735392,
+          "chi_MHz": 0.6971007145325104,
+          "T1_est_us": 18764.013722266518
+        },
+        "Q2": {
+          "f01_epr_GHz": 5.13647764185,
+          "f01_transmon_GHz": 5.847357791316096,
+          "alpha_epr_MHz": -181.6550788063255,
+          "chi_MHz": 2.533131888048878,
+          "T1_est_us": 32.66336604656866
+        },
+        "readout1": {
+          "f_GHz": 6.94524093283,
+          "kappa_i_over_2pi_Hz": 1736.3102332075,
+          "kappa_ext_over_2pi_Hz": 8459359.609662153,
+          "kappa_over_2pi_Hz": 8461095.91989536,
+          "Q_loaded": 820.8441316093592
+        },
+        "readout2": {
+          "f_GHz": 6.39679700438,
+          "kappa_i_over_2pi_Hz": 1599.1992510950001,
+          "kappa_ext_over_2pi_Hz": 6738872.455325324,
+          "kappa_over_2pi_Hz": 6740471.654576419,
+          "Q_loaded": 949.0132637879899
+        }
+      }
+    }
+  ],
+  "index_path": "records\\2qubit\\batch_300_position_sweep_index.json",
+  "json_subdir": "json_tmp",
+  "gds_subdir": "gds_tmp"
+}

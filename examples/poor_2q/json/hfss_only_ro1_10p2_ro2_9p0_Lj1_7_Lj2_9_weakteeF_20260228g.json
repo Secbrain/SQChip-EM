@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "created_utc": "2026-02-28T10:18:03.155332+00:00",
+    "updated_utc": "2026-02-28T10:21:19.742813+00:00",
+    "sample_id": "hfss_only_ro1_10p2_ro2_9p0_Lj1_7_Lj2_9_weakteeF_20260228g",
+    "units": {
+      "f": "GHz",
+      "kappa": "Hz",
+      "C": "fF",
+      "K": "MHz",
+      "T": "us"
+    },
+    "filename_base": "hfss_only_ro1_10p2_ro2_9p0_Lj1_7_Lj2_9_weakteeF_20260228g",
+    "ansys_sim_tag": "3af563f8",
+    "gds_path": "examples/poor_2q/gds/hfss_only_ro1_10p2_ro2_9p0_Lj1_7_Lj2_9_weakteeF_20260228g.gds",
+    "gds_export_mode": "safe",
+    "gds_error": "",
+    "mode_picker": {
+      "n_modes": 8,
+      "q_window_GHz": [
+        4.0,
+        5.0
+      ],
+      "r_window_GHz": [
+        5.0,
+        6.0
+      ],
+      "q_pick": {
+        "window_GHz": [
+          4.0,
+          5.0
+        ],
+        "window_used_GHz": [
+          3.75,
+          5.25
+        ],
+        "expand_GHz": 0.25,
+        "candidates": [
+          3,
+          4
+        ]
+      },
+      "r_pick": {
+        "window_GHz": [
+          5.0,
+          6.0
+        ],
+        "window_used_GHz": [
+          4.75,
+          6.25
+        ],
+        "expand_GHz": 0.25,
+        "candidates": [
+          5,
+          6
+        ]
+      },
+      "kerr_floor_MHz": 0.05,
+      "q_kerr_min_MHz": 1.0,
+      "n_qubit_like": 3,
+      "selected": {
+        "q1": 3,
+        "q2": 4,
+        "r1": 6,
+        "r2": 5
+      },
+      "warnings": [
+        "Qubit window expanded by ±0.25 GHz: [3.75,5.25] (base [4.0,5.0] had 1/2 candidates)",
+        "Resonator window expanded by ±0.25 GHz: [4.75,6.25] (base [5.0,6.0] had 1/2 candidates)"
+      ]
+    },
+    "epr_sol_columns": [
+      "U_H",
+      "U_E",
+      "Qdielectric_main"
+    ]
+  },
+  "resonators": {
+    "readout1": {
+      "f_GHz": 6.08693342223,
+      "K_MHz": 0.005768878191261966,
+      "modes_f_GHz": [
+        1.95345061304,
+        2.22297695951,
+        2.4422000044,
+        4.5016522761,
+        5.04727282859,
+        5.44468820196,
+        6.08693342223,
+        7.26948864583
+      ],
+      "picked_qubit_mode_index": 3,
+      "picked_res_mode_index": 6,
+      "Qi": 1291.5228544131376,
+      "kappa_i_over_2pi_Hz": 4712989.322202801,
+      "external": {
+        "Cin_fF": null,
+        "pair": null,
+        "res_node": null,
+        "feed_node": null,
+        "kappa_Hz": null,
+        "kappa_over_2pi_Hz": null,
+        "Qe": null
+      },
+      "kappa_over_2pi_Hz": 4712989.322202801,
+      "Q_loaded": 1291.5228544131376,
+      "warnings": [
+        "Qubit window expanded by ±0.25 GHz: [3.75,5.25] (base [4.0,5.0] had 1/2 candidates)",
+        "Resonator window expanded by ±0.25 GHz: [4.75,6.25] (base [5.0,6.0] had 1/2 candidates)",
+        "Qi recalculated from inferred p=0.00215: tan_delta=0.36 (assumed EPR tan_delta=0.0004), Qi=1.29e+03"
+      ],
+      "T1_photon_us": 0.03376942577444839,
+      "kappa_i_over_kappa_e": null
+    },
+    "readout2": {
+      "f_GHz": 5.44468820196,
+      "K_MHz": 1.6396439970771683,
+      "modes_f_GHz": [
+        1.95345061304,
+        2.22297695951,
+        2.4422000044,
+        4.5016522761,
+        5.04727282859,
+        5.44468820196,
+        6.08693342223,
+        7.26948864583
+      ],
+      "picked_qubit_mode_index": 4,
+      "picked_res_mode_index": 5,
+      "Qi": 1304.0202693790893,
+      "kappa_i_over_2pi_Hz": 4175309.4869855777,
+      "external": {
+        "Cin_fF": null,
+        "pair": null,
+        "res_node": null,
+        "feed_node": null,
+        "kappa_Hz": null,
+        "kappa_over_2pi_Hz": null,
+        "Qe": null
+      },
+      "kappa_over_2pi_Hz": 4175309.4869855777,
+      "Q_loaded": 1304.0202693790893,
+      "warnings": [
+        "Qubit window expanded by ±0.25 GHz: [3.75,5.25] (base [4.0,5.0] had 1/2 candidates)",
+        "Resonator window expanded by ±0.25 GHz: [4.75,6.25] (base [5.0,6.0] had 1/2 candidates)",
+        "Qi recalculated from inferred p=0.00213: tan_delta=0.36 (assumed EPR tan_delta=0.0004), Qi=1.3e+03"
+      ],
+      "T1_photon_us": 0.03811811880963091,
+      "kappa_i_over_kappa_e": null
+    }
+  },
+  "qubits": {
+    "Q1": {
+      "Lj_H": 7.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": null,
+      "f01_epr_GHz": 4.5016522761,
+      "alpha_epr_MHz": -126.90034013877494,
+      "chi_MHz": 1.0618297321849135,
+      "dispersive": {
+        "chi_GHz": 0.0010618297321849134,
+        "Delta_GHz": -1.5852811461299998,
+        "g_GHz": 0.1507037619233804
+      },
+      "energies": {
+        "Ec_GHz": null,
+        "Ej_GHz": 23.351644686683017,
+        "Ej_over_Ec": null
+      },
+      "f01_transmon_GHz": null,
+      "Q_dielectric_main": 1100660.3065325792,
+      "T1_dielectric_us": 38.91360720589992,
+      "T1_purcell_us": 3.736698674699475,
+      "T1_est_us": 3.4093172715135203,
+      "T2_est_us": 6.8186345430270405
+    },
+    "Q2": {
+      "Lj_H": 9.000000000000001e-09,
+      "Cj_fF": 2.0,
+      "C_eff_fF": null,
+      "f01_epr_GHz": 5.04727282859,
+      "alpha_epr_MHz": -94.7827452359862,
+      "chi_MHz": 24.91670535498267,
+      "dispersive": {
+        "chi_GHz": 0.024916705354982673,
+        "Delta_GHz": -0.3974153733700003,
+        "g_GHz": 0.2267634067271921
+      },
+      "energies": {
+        "Ec_GHz": null,
+        "Ej_GHz": 18.16239031186457,
+        "Ej_over_Ec": null
+      },
+      "f01_transmon_GHz": null,
+      "Q_dielectric_main": 1127012.2074100836,
+      "T1_dielectric_us": 35.53791717344744,
+      "T1_purcell_us": 0.11707787728800223,
+      "T1_est_us": 0.11669343664144599,
+      "T2_est_us": 0.23338687328289198
+    }
+  },
+  "q3d": {
+    "internal": {},
+    "external": {}
+  },
+  "chip": {
+    "T1_qubit1_est_us": 3.4093172715135203,
+    "T2_qubit1_est_us": 6.8186345430270405,
+    "T1_qubit2_est_us": 0.11669343664144599,
+    "T2_qubit2_est_us": 0.23338687328289198,
+    "chi12_MHz": 0.06842602198673153,
+    "chi1_over_kappa1": 0.2252985652190329,
+    "chi2_over_kappa2": 5.967630766688778
+  },
+  "status": "completed"
+}
